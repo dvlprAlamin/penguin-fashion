@@ -1,0 +1,62 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.logo img{
+    height: 35px;
+}
+.banner-right img{
+    width: 70%;
+}
+.buy-now-btn{
+    background-image: linear-gradient(#A4BC46, #85A019);
+    border: none;
+    padding: 1em 2em;
+    border-radius: .6em;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+.orange-highlight{
+    color: #FABE4C;
+}
+.product-card{
+    border: none;
+    border-radius: 1em;
+    padding: .8em;
+}
+.section-title{
+    font-size: 48px;
+}
+.item-img img{
+    width: 80px;
+}
+.about-right img{
+    max-width: 100%;
+}
+.contact-form input, textarea{
+    padding: 10px 0 10px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #A4BC46;
+    color: #ffffff;
+}
+.contact-form input::placeholder, textarea::placeholder{
+    color: #A4BC46;
+}
+.contact-form .submit-btn{
+    background-color: #A4BC46;
+}
+.contact-right iframe{
+    width: 100%;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .buy-now-btn{
+        padding: .8em 1em;
+        font-size: 14px;
+    }
+}
+@media (max-width: 767px){
+    .item-details{
+        text-align: center;
+    }
+}
