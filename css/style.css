@@ -1,17 +1,6 @@
+/* overall css start */
 body{
     font-family: 'Roboto', sans-serif;
-}
-.logo img{
-    height: 35px;
-}
-.banner-right img{
-    width: 70%;
-}
-.buy-now-btn{
-    background-image: linear-gradient(#A4BC46, #85A019);
-    border: none;
-    padding: 1em 2em;
-    border-radius: .6em;
 }
 h1{
     font-family: 'Bebas Neue', cursive;
@@ -19,13 +8,34 @@ h1{
 .orange-highlight{
     color: #FABE4C;
 }
+.buy-now-btn{
+    background-image: linear-gradient(#A4BC46, #85A019);
+    border: none;
+    padding: 1em 2em;
+    border-radius: .6em;
+}
+.section-title{
+    font-size: 48px;
+}
+/* overall css end */
+
+/* header part css start */
+.logo img{
+    height: 35px;
+}
+.active, .nav-link:hover{
+    color: #A4BC46 !important;
+}
+.banner-right img{
+    width: 70%;
+}
+/* header part css end */
+
+/* product part css start */
 .product-card{
     border: none;
     border-radius: 1em;
     padding: .8em;
-}
-.section-title{
-    font-size: 48px;
 }
 .item-img img{
     width: 80px;
@@ -33,6 +43,9 @@ h1{
 .about-right img{
     max-width: 100%;
 }
+/* product part css end */
+
+/* contact part css start */
 .contact-form input, textarea{
     padding: 10px 0 10px 10px;
     margin-bottom: 15px;
@@ -48,7 +61,9 @@ h1{
 .contact-right iframe{
     width: 100%;
 }
+/* contact part css end */
 
+/* buy-now button issue fix css start */
 @media (max-width: 991px) and (min-width: 768px) {
     .buy-now-btn{
         padding: .6em .8em;
@@ -59,8 +74,12 @@ h1{
         margin: 0;
     }
 }
+/* buy-now button issue fix css end */
+
+/* about us item-details css start */
 @media (max-width: 767px){
     .item-details{
         text-align: center;
     }
 }
+/* about us item-details css end */
